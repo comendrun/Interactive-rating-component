@@ -1,0 +1,142 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(20, 21, 25);
+  display: flex;
+  margin: 0;
+  font-family: Overpass, sans-serif;
+}
+
+main {
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  max-width: 90%;
+  margin: auto;
+}
+
+.container {
+  background-color: rgb(32, 39, 49);
+  /* border: 1px solid red; */
+  border-radius: 20px;
+  max-width: 375px;
+  min-height: 375px;
+  /* color: white; */
+  margin: auto auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  color: rgb(138, 145, 156);
+  text-align: center;
+}
+
+.how {
+  color: rgb(252, 255, 255);
+  margin-bottom: 0;
+}
+
+.first-page-p {
+  margin-top: 0.5rem;
+  text-align: start;
+}
+
+.star-container {
+  background-color: rgb(36, 47, 57);
+  display: flex;
+  max-width: 50px;
+  min-height: 50px;
+  border-radius: 50%;
+}
+
+.star {
+  width: 40%;
+  height: 40%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-around;
+}
+
+.rating-number {
+  /* border: 1px solid white; */
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: rgb(38, 47, 56);
+  color: rgb(125, 133, 144);
+  font-size: 1rem;
+  font-weight: 600;
+  outline: none;
+  border: none;
+}
+
+.rating-number:hover {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(25, 97%, 53%);
+}
+
+.rating-number:focus {
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+
+.btn {
+  background-color: hsl(25, 97%, 53%);
+  padding: 0.7rem 1rem;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  margin-top: 2rem;
+  color: rgb(255, 253, 244);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-family: Overpass, sans-serif;
+}
+
+.btn:hover {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(0, 0%, 100%);
+}
+
+.second-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.answer-box {
+  padding: 0.3rem;
+  text-align: center;
+  color: hsl(25, 97%, 53%);
+  border-radius: 30px;
+  min-width: 200px;
+  margin: auto;
+  background-color: rgb(38, 47, 56);
+  font-weight: 300;
+}
+
+.thank {
+  margin: 0;
+  color: rgb(255, 253, 244);
+}
