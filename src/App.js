@@ -1,7 +1,7 @@
 import "./styles.css";
 import React from "react";
-import icon from "../public/icon-star.svg";
-import thankyouIcon from "../public/illustration-thank-you.svg";
+import icon from "./icon-star.svg";
+import thankyouIcon from "./illustration-thank-you.svg";
 
 function App() {
   const [secondPage, setSecondPage] = React.useState(false);
